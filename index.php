@@ -37,44 +37,37 @@
 
             <div class="uk-width-1-2@m">
                 <label class="h2">ชื่อผู้ส่ง</label>
-                <input name="sender_name" class="uk-input uk-width-1-1" type="text" required
-                       value="<?php echo $_POST['sender_name']; ?>">
+                <input name="sender_name" class="uk-input uk-width-1-1" type="text" required>
             </div>
 
             <div class="uk-width-1-2@m">
                 <label class="h2">เบอร์โทร</label>
-                <input name="sender_phone" class="uk-input uk-width-1-1" type="text" required
-                       value="<?php echo $_POST['sender_phone']; ?>">
+                <input name="sender_phone" class="uk-input uk-width-1-1" type="text" required>
             </div>
 
             <div class="uk-width-1-2@m">
                 <label class="h2">ที่อยู่</label>
-                <input name="sender_address" class="uk-input uk-width-1-1" type="text" required
-                       value="<?php echo $_POST['sender_address']; ?>">
+                <input name="sender_address" class="uk-input uk-width-1-1" type="text" required>
             </div>
 
             <div class="uk-width-1-2@m">
                 <label class="h2">ตำบล / แขวง</label>
-                <input name="sender_district" class="uk-input uk-width-1-1" type="text" required
-                       value="<?php echo $_POST['sender_district']; ?>">
+                <input name="sender_district" class="uk-input uk-width-1-1" type="text" required>
             </div>
 
             <div class="uk-width-1-2@m">
                 <label class="h2">อำเภอ / เขต</label>
-                <input name="sender_amphoe" class="uk-input uk-width-1-1" type="text" required
-                       value="<?php echo $_POST['sender_amphoe']; ?>">
+                <input name="sender_amphoe" class="uk-input uk-width-1-1" type="text" required>
             </div>
 
             <div class="uk-width-1-2@m">
                 <label class="h2">จังหวัด</label>
-                <input name="sender_province" class="uk-input uk-width-1-1" type="text" required
-                       value="<?php echo $_POST['sender_province']; ?>">
+                <input name="sender_province" class="uk-input uk-width-1-1" type="text" required>
             </div>
 
             <div class="uk-width-1-2@m">
                 <label class="h2">รหัสไปรษณีย์</label>
-                <input name="sender_zipcode" class="uk-input uk-width-1-1" type="text" required
-                       value="<?php echo $_POST['sender_zipcode']; ?>">
+                <input name="sender_zipcode" class="uk-input uk-width-1-1" type="text" required>
             </div>
 
             <div class="uk-width-1-1">
@@ -87,44 +80,37 @@
 
             <div class="uk-width-1-2@m">
                 <label class="h2">ชื่อผู้รับ</label>
-                <input name="recipient_name" class="uk-input uk-width-1-1" type="text" required
-                       value="<?php echo $_POST['recipient_name']; ?>">
+                <input name="recipient_name" class="uk-input uk-width-1-1" type="text" required>
             </div>
 
             <div class="uk-width-1-2@m">
                 <label class="h2">เบอร์โทร</label>
-                <input name="recipient_phone" class="uk-input uk-width-1-1" type="text" required
-                       value="<?php echo $_POST['recipient_phone']; ?>">
+                <input name="recipient_phone" class="uk-input uk-width-1-1" type="text" required>
             </div>
 
             <div class="uk-width-1-2@m">
                 <label class="h2">ที่อยู่</label>
-                <input name="recipient_address" class="uk-input uk-width-1-1" type="text" required
-                       value="<?php echo $_POST['recipient_address']; ?>">
+                <input name="recipient_address" class="uk-input uk-width-1-1" type="text" required>
             </div>
 
             <div class="uk-width-1-2@m">
                 <label class="h2">ตำบล / แขวง</label>
-                <input name="recipient_district" class="uk-input uk-width-1-1" type="text" required
-                       value="<?php echo $_POST['recipient_district']; ?>">
+                <input name="recipient_district" class="uk-input uk-width-1-1" type="text" required>
             </div>
 
             <div class="uk-width-1-2@m">
                 <label class="h2">อำเภอ / เขต</label>
-                <input name="recipient_amphoe" class="uk-input uk-width-1-1" type="text" required
-                       value="<?php echo $_POST['recipient_amphoe']; ?>">
+                <input name="recipient_amphoe" class="uk-input uk-width-1-1" type="text" required>
             </div>
 
             <div class="uk-width-1-2@m">
                 <label class="h2">จังหวัด</label>
-                <input name="recipient_province" class="uk-input uk-width-1-1" type="text" required
-                       value="<?php echo $_POST['recipient_province']; ?>">
+                <input name="recipient_province" class="uk-input uk-width-1-1" type="text" required>
             </div>
 
             <div class="uk-width-1-2@m">
                 <label class="h2">รหัสไปรษณีย์</label>
-                <input name="recipient_zipcode" class="uk-input uk-width-1-1" type="text" required
-                       value="<?php echo $_POST['recipient_zipcode']; ?>">
+                <input name="recipient_zipcode" class="uk-input uk-width-1-1" type="text" required>
             </div>
 
             <div class="uk-width-1-1">
@@ -137,8 +123,7 @@
 
             <div id="CODval" class="uk-width-1-1" style="display:none;">
                 <label class="h2">จำนวนเงิน (บาท)</label>
-                <input name="recipient_cash" class="uk-input uk-width-1-2@m" type="text"
-                       value="<?php echo $_POST['recipient_cash']; ?>">
+                <input name="recipient_cash" class="uk-input uk-width-1-2@m" type="text">
             </div>
 
             <div class="uk-width-1-1">
