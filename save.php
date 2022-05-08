@@ -31,7 +31,7 @@ $recipient_district = $_POST['recipient_district'];
 $recipient_amphoe = $_POST['recipient_amphoe'];
 $recipient_province = $_POST['recipient_province'];
 $recipient_zipcode = $_POST['recipient_zipcode'];
-$recipient_cash_on_delivery = $_POST['recipient_cash_on_delivery'];
+$recipient_cash_on_delivery = isset($_POST['recipient_cash_on_delivery'])?$_POST['recipient_cash_on_delivery']:0;
 $recipient_cash = $_POST['recipient_cash'];
 
 try {
@@ -110,7 +110,8 @@ foreach ($res as $row) {
          $row['district'] . "," .
          $row['amphoe'] . "," .
          $row['province'] . "," .
-         $row['zipcode'] . "<br>";
+         $row['zipcode'] . "," .
+         $row['cash'] . "<br>";
 }
 
 ?>
